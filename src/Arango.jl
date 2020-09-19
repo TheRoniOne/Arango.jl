@@ -1,5 +1,9 @@
 module Arango
 
-# Write your package code here.
+using Base64
+
+include("connection.jl")
+
+export connection
 
 end

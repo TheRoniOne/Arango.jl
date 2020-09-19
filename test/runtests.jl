@@ -1,6 +1,3 @@
-using Arango
-using Test
+using SafeTestsets
 
-@testset "Arango.jl" begin
-    # Write your tests here.
-end
+@safetestset "connection tests" begin include("connection_tests.jl") end
